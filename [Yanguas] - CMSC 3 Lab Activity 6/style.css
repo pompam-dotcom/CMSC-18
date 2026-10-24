@@ -1,0 +1,67 @@
+
+   Five-color palette: #FFF8F0, #FFFFFF, #30251F, #9A431D, #F7E0CB. */
+
+
+body {
+    background-color: #FFF8F0;
+    color: #30251F;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 32px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 12px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #F7E0CB;
+    margin: 20px 0;
+}
+small {
+    font-size: 16px;
+    font-weight: bold;
+}
+a {
+    color: #9A431D;
+    text-decoration: underline;
+}
+
+#profile {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #FFFFFF;
+    border: 2px solid #F7E0CB;
+    border-radius: 16px;
+}
+
+.details {
+    list-style-position: inside;
+    padding: 0;
+    margin: 18px 0 0;
+}
+
+h1, b {
+    color: #9A431D;
+}
+
+#profile li {
+    margin: 0 0 12px;
+    padding: 14px 18px;
+    border: 1px solid #F7E0CB;
+    border-radius: 8px;
+}
+
+li.fun-fact {
+    font-style: italic;
+}
+
+a:hover {
+    color: #30251F;
+    background-color: #F7E0CB;
+}
